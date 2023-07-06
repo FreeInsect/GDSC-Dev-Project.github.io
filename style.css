@@ -1,0 +1,581 @@
+/* lets start */
+
+.gap{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header{
+    margin-top: 5%;
+}
+
+.image1{
+    z-index: 2;
+    position: absolute;
+    height: 4%;
+    left: 20%;
+    /* top: 0px; */
+}
+
+.image2{
+    z-index: 1;
+    position: relative;
+    height: 20%;
+    left: 153px;
+    top: 17px;
+}
+
+.signup{
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.eng{
+    background-color: white;
+    border-style: none;
+    width: 58.5px;
+    height: 22px;
+    font-size: 10px;
+    position: relative;
+    bottom: 30px;
+}
+
+.topmenu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.topnav-items{
+    font-size: 30px;
+    font-family: Open Sans;
+    color: black;
+    height: 22px;
+    list-style: none;
+    margin: 25px;
+    text-decoration: none;
+}
+
+/* header complete, body ahead */
+
+h1{
+    color: #DF6951;
+    font-size: 30px;
+    padding-top: 70px;
+    font-family: Poppins;
+}
+
+h2{
+    color: #181E4B;
+    font-size: 100px;
+    font-family: Volkhov;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.firstp{
+    color: #5E6282;
+    font-family: Poppins;
+    font-size: 23px;
+    margin-top: 0px;
+}
+
+.find{
+    background-color: #F1A501;
+    width: 170px;
+    height: 60px;
+    border-style: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 500px;
+}
+
+.fin{
+    text-decoration: none;
+    font-family: Open Sans;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.flex{
+    display: flex;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.play{
+    width: 165px;
+    height: 52px;
+    text-align: center;
+    background-color: white;
+    border-style: none;
+    position: relative;
+    bottom: 10px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.demo{
+    font-size: 20px;
+    font-family: Poppins;
+    color: #686D77;
+    text-decoration: none;
+    text-align: left;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* images */
+.image3{
+    z-index: 1;
+    position: relative;
+    top: 65px;
+    right: 370px;
+}
+
+.image4{
+    z-index: 2;
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    right: 500px;
+}
+
+.image5{
+    z-index: 1;
+    position: relative;
+    top: 120px;
+    right: 35px;
+}
+
+hr{
+    border-style: none;
+}
+
+/* First block finished
+Services block below */
+
+.para{
+    font-family: Poppins;
+    color: #5E6282;
+    font-size: 21px;
+    position: relative;
+    bottom: 8px;
+}
+
+h5{
+    color: #1E1D4C;
+    font-size: 20px;
+    font-family: Open Sans;
+    position: relative;
+    top: 20px;
+}
+
+h3{
+    color: #5E6282;
+    font-family: Open Sans;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h4{
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+.services{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-bottom: 4%;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.serv{
+    margin: 100px;
+}
+
+.plane2{
+    margin-top: 2.8%;
+}
+
+.moregap{
+    margin-top: 0.1%;
+}
+
+/* Destinations */
+.des{
+    margin-bottom: 60px;
+}
+
+.destinations{
+    position: relative;
+    list-style: none;
+    margin-left: 5%;
+    z-index: 2;
+}
+
+.destin{
+    position: absolute;
+    background-color: white;  
+    color: #5E6282; 
+    bottom: 28.5%;
+    left: 16%;
+    width: 320px;
+    height: 130px;
+    z-index: 1;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+.smthng-list{
+    display: flex;
+}
+
+.somegap{
+    top: 500px;
+}
+
+.arrow{
+    display: inline;
+}
+
+.span{
+    position: relative;
+    left: 160px;
+}
+
+/* easy and fast  */
+.h3-easy{
+    text-align: left;
+    position: relative;
+    top: 55px;
+}
+
+.h4-easy{
+    text-align: left;
+    font-size: 70px;
+}
+
+.easy-list{
+    display: flex;
+    position: relative;
+    right: 30px;
+    
+}
+
+.easy-img{
+    width: 47px;
+    height: 48px;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.first-easy{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-easy{
+    display: flex;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.peeps{
+    position: relative;
+    bottom: 20px;
+}
+
+.heart{
+    position: relative;
+    left: 110px;
+}
+
+.moveimg{
+    margin-right: 15%;
+    margin-top: 13%;
+    width: 414px;
+    height: 1px;
+}
+
+.ez{
+    color: #5E6282;
+    font-size: 21px;
+    font-family: Poppins;
+}
+
+.trip{
+    position: relative;
+    font-size: 24px;
+    top: 0px;
+    color: #080809;
+}
+
+.imgs{
+    width: 299x;
+}
+
+.greece{
+    width: 370px;
+    height: 200px;
+}
+
+/* testimonals */
+
+.testimonals{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.extra1{
+    text-align: left;
+    font-size: 80px;
+    /* margin-right: 400px; */
+    /* margin-top: 100px; */
+}
+
+.list-test{
+    margin-left: 70%;
+    width: 700px;
+    list-style: none;
+}
+
+.face{
+    width: 68px;
+    height: 68px;
+    position: relative;
+    right: 70px;
+    top: 15px;
+}
+
+.creds{
+    font-size: 20px;
+    color: #5E6282;
+    font-weight: 50%;
+    font-family: Poppins;
+}
+
+.mike{
+    z-index: 2;
+    position: absolute;
+    right: 320px;
+    top: 4060px;
+    background-color: white;
+}
+
+.chris{
+    z-index: 1;
+    position: relative;
+    width: 650px;
+    background-color: white;
+    top: 200px;
+    right: 400px;
+}
+
+/* logos */
+.logos{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.one{
+    width: 130px;
+    height: 130px;
+    padding-top: 1.2%;
+    filter: grayscale(100%);
+}
+
+.two{
+    width: 172.86px;
+    height: 110px;
+    padding-top: 1.8%;
+    filter: grayscale(100%);
+}
+
+.three{
+    width: 482px;
+    height: 324px;
+}
+
+.four{
+    width: 162px;
+    height: 32px;
+    padding-top: 3.8%;
+    filter: grayscale(100%);
+}
+
+.five{
+    width: 94px;
+    height: 21px;
+    padding-top: 4.2%;
+    filter: grayscale(100%);
+}
+
+/* subscribe */
+.rect{
+    background-color: #f7f1f6;
+    /* opacity: 0.2%; */
+    width: 1170px;
+    height: 407px;
+    z-index: 1;
+    position: relative;
+    left: 15%;
+    top: 0px;
+}
+
+.button{
+    width: 180px;
+    height: 68px;
+    background-color: #FF946D;
+    font-family: Open Sans;
+    color: white;
+    font-size: 17px;
+    border-radius: 8.5px;
+    border-style: none;
+    margin-left: 10px;
+}
+
+.mail{
+    border-style: none;
+    border-radius: 8.5px;
+    width: 421px;
+    height: 68px;
+    font-size: 17px;
+    font-family: Montserrat;
+}
+
+.txt{
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    color: #5E6282;
+}
+
+.blue{
+    margin-left: 96%;
+    margin-top: -2%;
+    bottom: 400px;
+}
+
+.sub{
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    left: 200px;
+} 
+
+/* footer  */
+.last{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    color: #5E6282;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 5.5%;
+}
+
+.j{
+    font-size: 44px;
+    font-family: Poppins;
+    color: #181E4B;
+    position: relative;
+    top: 30px;
+}
+
+.table{
+    height: 153px;
+    width: 474px;
+    margin-right: 300px;
+    margin-top: 60px;
+    font-size: 21px;
+    font-family: Poppins;
+    text-align: left;
+}
+
+.link{
+    text-decoration: none;
+    color: #5E6282;
+}
+
+.button1{
+    display: flex;
+    align-items: center;
+    width: 107px;
+    height: 35px;
+    font-size: 10px;
+    text-align: left;
+    background-color: black;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.gp{
+    width: 20px;
+    height: 20px;
+}
+
+.button2{
+    display: flex;
+    align-items: center;
+    width: 110px;
+    height: 35px;
+    font-size: 9px;
+    font-family: ;
+    text-align: left;
+    background-color: black;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    margin-left: 5px;
+}
+
+.as{
+    width: 20px;
+    height: 20px;
+}
+
+.apps{
+    display: flex;
+    padding: 5px;
+    position: relative;
+    bottom: 15px;
+}
+
+.footer-apps{
+    position: relative;
+    right: 370px;
+    top: 50px;
+}
+
+.gap2{
+    margin-bottom: 3%;
+}
